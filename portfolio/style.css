@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Whisper&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+  
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: black;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+a {
+    color: red;
+    font-weight: 100;
+    letter-spacing: 2px;
+    text-decoration: none;
+    padding: 20px 5px;
+    display: inline-block;
+    width: 100%;
+    text-align: right;
+    transition: all 0.5s;
+}
+a:hover {
+    background: rgb(0, 0, 0);
+  }
+
+.nav-button {
+    display: flex;
+    justify-items: right;
+    box-sizing: border-box;
+    justify-content: space-around;
+    background-color: gray;
+    border: none;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    float: left;
+    width: 33%;
+    padding: 50px;
+}
+
+/* .nav-button1 {    
+
+
+}
+
+.nav-button2 {
+    float: left;
+    width: 33%;
+    padding: 50px;
+}
+
+.nav-button3 {
+    float: left;
+    width: 33%;
+    padding: 50px;
+} */
+
+.wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 50px;
+  }
+
+/* nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+} */
+
+.logo{
+    color: white;
+    font-family: 'Whisper', cursive;
+    font-weight: 100;
+    font-size: 50px;
+    padding: 20px 5px;
+    width: 100%;
+    text-align: left;
+    transition: all 0.5s
+}
+
+.logo:hover{
+    background: rgba(33, 199, 221, 0.3);
+}
+
+/* .cenLrgArial {
+    text-align: center;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+} */
+
+.navStyle {
+    display: flex;
+    border: black 2px;
+    font-style: bold;
+    text-justify: right;    
+}
+
+header {
+    text-align: center;
+    color: rgb(61, 61, 61);
+    text-decoration: underline;
+}
